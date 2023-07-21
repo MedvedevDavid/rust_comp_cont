@@ -1,0 +1,8 @@
+version: "3"
+services:
+  rust_compiler:
+    build: .
+    volumes:
+     - .:/usr/src/rustenv
+    stdin_open: true 
+    tty: true
